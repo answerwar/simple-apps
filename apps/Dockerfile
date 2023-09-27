@@ -6,7 +6,7 @@ FROM node:18.16.0
 WORKDIR /apps
 
 #copy file dari host linux ke work directory
-ADD ./apps/. /apps
+ADD . /apps
 
 #install module 
 
