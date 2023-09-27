@@ -14,7 +14,7 @@ RUN npm install
 
 # menjalankan perintah saat containar jalan
 
-CMD [ "npm start" ]
+CMD "npm start"
 
 #expose port
 EXPOSE 3000
